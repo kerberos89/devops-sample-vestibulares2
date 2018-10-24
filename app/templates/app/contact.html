@@ -1,0 +1,20 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<address>
+    PyTec<br />
+    Avenida Rudge, 315<br />
+    <abbr title="Telefone">Tel:</abbr>
+    11 5593-5390
+</address>
+
+<address>
+    <strong>Suporte:</strong>   <a href="mailto:suporte@pytech.com.br">suporte@pytech.com.br</a><br />
+    <strong>Marketing:</strong> <a href="mailto:marketing@pytech.com.br">marketing@pytech.com.br</a>
+</address>
+
+{% endblock %}
